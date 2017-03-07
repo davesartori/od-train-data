@@ -1,7 +1,6 @@
 const Schema = require('./models/listing');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/od-train-data');
 
 var saveListing = (item) => {
     var item = new Schema(item);

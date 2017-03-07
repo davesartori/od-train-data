@@ -4,7 +4,6 @@ const expect = require('expect');
 
 it('Should save a new listing', (done) => {
     var listingItem = {
-        _id: new ObjectID(),
         listingId: '122333',
         url: 'www.rrr.comcc',
         description: 'Great house'
@@ -21,7 +20,6 @@ it('Should save a new listing', (done) => {
 
 it('Should retrieve a listing', (done) => {
     var listingItem = {
-        _id: new ObjectID(),
         listingId: '51273',
         url: 'www.rrr.comcc',
         description: 'Great house'
